@@ -1,0 +1,214 @@
+1.  Name: KAZIM
+
+2.  Register No: 25031_164
+
+3.  Project Title: Address Book
+
+4.  Description: The Address Book is designed using C program. It maintains and manages 
+                 the personal contact information including name, phone number and email id.
+                 This project allows users to create new contacts, search contacts, edit 
+                 contacts, delete contacts and display all the contacts.
+
+5.  Submission Date: 12/12/2025
+
+6.  Sample Input and Output:
+
+    Choice 1: Create contact
+
+                Test case 1:
+                    Enter the Name: Mohammed
+                    Enter the Phone number: 7094814537
+                    Enter the email ID: mohamed2003@gmail.com
+
+                    Sample Output: Contact created successfully
+
+                Test case 2:
+                    Enter the Name: Dinesh52
+                    Enter the Phone number: 1234567890
+                    Enter the email ID: dinesh20@gmail.com
+
+                    Sample Output: Name must contain only letters, Enter valid name
+
+                Test case 3:
+                    Enter the Name: Arjun
+                    Enter the Phone number: 1234ab@12345
+                    Enter the email ID: arjun03@gmail.com
+
+                    Sample Output: Phone number must contain only 10 digits letters, Enter valid phone number
+
+                Test case 4:
+                    Enter the Name: Daniel S
+                    Enter the Phone number: 1234567890
+                    Enter the email ID: daniel2003gmail.com
+
+                    Sample Output: email id must contain 1 @ symbol
+
+
+    Choice 2: Search contact
+
+                Test case 1: //search by name
+                    Enter the Name: MOHAMMED
+
+                    Sample Output: Contact found
+                                   Name: MOHAMMED
+                                   Phone number: 7094814537
+                                   email ID: mohamed2003@gmail.com
+
+                Test case 2: //search by phone number
+                    Enter the Phone number: 7094234567
+
+                    Sample Output: No Contact found
+
+                Test case 3: //search by email
+                    Enter the email ID: mohamed2003@gmail
+
+                    Sample Output: Contact found
+                                   Name: MOHAMMED
+                                   Phone number: 7094814537
+                                   email ID: mohamed2003@gmail.com
+
+
+    Choice 3: Edit contact
+
+                Test case 1:
+                    Enter the phone number: 7094814537
+
+                    Details of given phone number
+                        Name: MOHAMMED
+                        Phone number: 7094814537
+                        email ID: mohamed2003@gmail.com
+                        What you want to edit of this contact
+                        1. Name
+                        2. Phone No
+                        3. Mail
+                        4. Exit
+
+                        1   //edit by name
+                        Enter New name: Mohammed F
+
+                    Sample Output: Name edited successfully
+
+                Test case 2:
+                    Enter the phone number: 1234567890
+
+                    Sample Output: No Contact found
+
+                Test case 3:
+                    Enter the phone number: 7094814537
+
+                    Details of given phone number
+                        Name: Mohammed F
+                        Phone number: 7094814537
+                        email ID: mohamed2003@gmail.com
+                        What you want to edit of this contact
+                        1. Name
+                        2. Phone Number
+                        3. Mail
+                        4. Exit
+
+                        2  //edit by Phone number
+                        Enter new phone number: 7094374581
+
+                    Sample Output: Phone Number Edited Successfully
+
+                Test case 4:
+                    Enter the phone number: 7094374581
+
+                    Details of given phone number
+                        Name: Mohammed F
+                        Phone number: 7094374581
+                        email ID: mohamed2003@gmail.com
+                        What you want to edit of this contact
+                        1. Name
+                        2. Phone Number
+                        3. Mail
+                        4. Exit
+
+                        3     //edit by email
+                        Enter New email ID: mohammedf03@gmail.com
+
+                    Sample Output: Email ID Edited Successfully
+
+
+    Choice 4: Delete contact
+
+                Test case 1:
+                    what do you want to delete by?...
+                        1. Name
+                        2. Phone Number
+                        3. Mail
+                        4. Exit
+
+                        1   //delete by name
+                        Enter the Name you want to delete?
+                        Arjun
+
+                        Here, Multiple Same name with different phone number and emails
+                        1 Name: Arjun
+                        Phone Number: 1234560987
+                        Email: arjun01@gmail.com
+                        2 Name: Arjun
+                        Phone Number: 0987123456
+                        Email: arjun02@gmail.com
+
+                        Enter which name of index do you want to delete (1 - 2)
+                        2
+
+                        Details of given Name
+                        Name: Arjun
+                        Phone Number: 0987123456
+                        Email: arjun02@gmail.com
+                        Are you sure to delete this Contact? 1(Yes) or 0(No)
+                        1
+
+                    Sample Output: Deleted Successfully
+
+                Test case 2:
+                    what do you want to delete by?...
+                        1. Name
+                        2. Phone Number
+                        3. Mail
+                        4. Exit
+
+                        2  //delete by phone number
+                        Enter Phone Number you want to delete
+                        1234509876
+
+                    Sample Output: No Contact found
+
+                Test case 3:
+                    what do you want to delete by?...
+                        1. Name
+                        2. Phone Number
+                        3. Mail
+                        4. Exit
+
+                        3  //delete by email id
+                        Enter email id you want to delete
+                        arjun03@gmail.com
+
+                        Details of given email id
+                        Name: Arjun
+                        Phone Number: 0987123456
+                        Email: arjun03@gmail.com
+                        Are you sure to delete this Contact? 1(Yes) or 0(No)
+                        0
+
+                    Sample Output: Not Deleted
+
+
+    Choice 5: List all contacts
+
+                Alice Smith 0987654321 alice@example.com
+                Bob Johnson 1112223333 bob@company.com
+                Carol White 4445556666 carol@company.com
+                David Brown 7778889999 david@example.com
+                Eve Davis 6665554444 eve@example.com
+                Frank Miller 3334445555 frank@example.com
+                Grace Wilson 2223334444 grace@example.com
+                Hannah Clark 5556667777 hannah@example.com
+                Ian Lewis 8889990000 ian@example.com
+                Riyan Khan 1234098765 riyan.khan@gmail.com
+                Zakir H 1230987654 zakirh@gmail.com
+                Arjun 1234560987 arjun01@gmail.com
+                Arjun 0987123456 arjun02@gmail.com
