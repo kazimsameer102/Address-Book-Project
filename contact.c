@@ -24,6 +24,8 @@ void Contactslist(AddressBook *addressBook)
 
 void initialize(AddressBook *addressBook) {
     addressBook->contactCount = 0;
+
+    //This is for populating the addressbook
     //populateAddressBook(addressBook);
     
     // Load contacts from file during initialization (After files)
